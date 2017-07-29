@@ -8,7 +8,8 @@ var path = require('path');
 require('dotenv').config();
 
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
+
 const expiryDate = new Date(Date.now() + 60 * 60 * 1000)
 var sesh = {
   name: 'insert cool name here',
