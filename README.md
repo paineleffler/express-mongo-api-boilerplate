@@ -10,6 +10,10 @@ This is a basic express project to help build API's with MongoDB quickly. It's s
   <a href="https://github.com/dokku"><img alt="Dokku" src="https://avatars1.githubusercontent.com/u/13455795?v=4&s=400" style="border-radius:10%" height="100px"/></a>
 </p>
 
+## Demo
+(heroku free instance, might be sleeping...)
+https://foo-api.herokuapp.com/
+
 ## Git started
 
 ### Go get a MongoDB Instance
