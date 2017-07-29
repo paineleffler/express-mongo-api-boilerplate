@@ -114,8 +114,6 @@ Then configure your routes with CORS by adding `cors(corsOptions)`:
 
 ## Git Deployin
 
-I'll put some Heroku & Dokku stuff here later.
-
 ### Heroku
 
 Make sure you have the Heroku CLI:
