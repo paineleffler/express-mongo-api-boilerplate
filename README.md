@@ -110,8 +110,27 @@ Creating ⬢ <crazy-unique-name-here>... done
 https://<crazy-unique-name-here>.herokuapp.com/ | https://git.heroku.com/<crazy-unique-name-here>.git
 ```
 
+Make sure you `git add && git commit -a -m 'commit message'`
+
+Then `git push heroku master` or whatever branch you like deploying from
+
+Then BAMMMM it's on Heroku! Go look at:
+
+https://<crazy-unique-name-here>.herokuapp.com/
+
 ### Dokku (if ur cool like me)
 
+Add your dokku remote to your `.git/config`
+
+```
+[remote "dokku"]
+        url = dokku@<dokku-server-ip-address>:api
+        fetch = +refs/heads/*:refs/remotes/dokku/*
+```
+
+Then `git push dokku master`
+
+BOOM!
 
 ## Git Buildin
 
@@ -147,3 +166,7 @@ Params should be sent as x-www-form-urlencoded in the body.
 `delete /foo/:id` delete a foo by id
 
 `put /foo/:id` update a foo
+
+## Git Testin
+
+coming soon
