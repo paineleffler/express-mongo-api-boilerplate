@@ -1,6 +1,12 @@
 # express-mongo-api-boilerplate
 
-This is a basic express project to help build API's with MongoDB quickly. It's so easy a baby could (maybe) do it. I'll take you through going from 0 to a Heroku (or Dokku) Deployed API in 5 mins.
+This is a basic express project to help build API's with MongoDB quickly. It's so easy a baby could (maybe) do it. I'll take you through going from 0 to a Heroku (or Dokku) Deployed API in 5-10 mins.
+
+<p align="center">
+  <a href="https://nodejs.org/">
+    <img alt="Node.js" src="https://nodejs.org/static/images/logo-light.svg" width="400"/>
+  </a>
+</p>
 
 ## Git started
 
@@ -128,6 +134,9 @@ Creating ⬢ <crazy-unique-name-here>... done
 https://<crazy-unique-name-here>.herokuapp.com/ | https://git.heroku.com/<crazy-unique-name-here>.git
 ```
 
+Make sure to set your MONGODB URL or it will not work!!!
+`heroku config:set MONGO_URL=mongodb://<dbuser>:<dbpass>@<ds123456>.mlab.com:<12345>/<dbname>`
+
 Make sure you `git add && git commit -a -m 'commit message'`
 
 Then `git push heroku master` or whatever branch you like deploying from
@@ -135,6 +144,8 @@ Then `git push heroku master` or whatever branch you like deploying from
 Then BAMMMM it's on Heroku! Go look at:
 
 https://<crazy-unique-name-here>.herokuapp.com/
+
+Note your free heroku instance will sleep after 30 minutes of no activity.
 
 ### Dokku (if ur cool like me)
 
@@ -145,6 +156,10 @@ Add your dokku remote to your `.git/config`
         url = dokku@<dokku-server-ip-address>:api
         fetch = +refs/heads/*:refs/remotes/dokku/*
 ```
+
+Set Dokku Environment Variable
+
+`dokku config:set MONGO_URL=mongodb://<dbuser>:<dbpass>@<ds123456>.mlab.com:<12345>/<dbname>`
 
 Then `git push dokku master`
 
