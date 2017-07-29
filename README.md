@@ -4,7 +4,8 @@ This is a basic express project to help build API's with MongoDB quickly. It's s
 
 <p align="center">
   <a href="https://nodejs.org/">
-    <img alt="Node.js" src="https://nodejs.org/static/images/logo-light.svg" width="400"/>
+    <img alt="Node.js" src="https://nodejs.org/static/images/logo-light.svg" width="100"/>
+    <img alt="MongoDB" src="https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg" width="100"/>
   </a>
 </p>
 
