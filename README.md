@@ -98,6 +98,18 @@ I'll put some Heroku & Dokku stuff here later.
 
 ### Heroku
 
+Make sure you have the Heroku CLI:
+
+https://devcenter.heroku.com/articles/heroku-cli
+
+run `heroku create <crazy-unique-name-here>`
+
+Then this should Echo back:
+```
+Creating ⬢ <crazy-unique-name-here>... done
+https://<crazy-unique-name-here>.herokuapp.com/ | https://git.heroku.com/<crazy-unique-name-here>.git
+```
+
 ### Dokku (if ur cool like me)
 
 
