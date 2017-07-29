@@ -4,10 +4,10 @@ This is a basic express project to help build API's with MongoDB quickly. It's s
 
 <p align="center">
   <a href="https://github.com/nodejs"><img alt="Node.js" src="https://avatars3.githubusercontent.com/u/9950313?v=4&s=200" style="border-radius:10%;" height="100px"/></a>
-  <a href="https://github.com/mongodb"><img alt="MongoDB" src="https://avatars1.githubusercontent.com/u/45120?v=4&s=200" style="border-radius:10%; height="100px"/></a>
-  <a href="https://github.com/expressjs"><img alt="Express" src="https://avatars1.githubusercontent.com/u/5658226?v=4&s=200" style="border-radius:10%; height="100px"/></a>
-  <a href="https://github.com/heroku"><img alt="Heroku" src="https://avatars3.githubusercontent.com/u/23211?v=4&s=200" style="border-radius:10%; height="100px"/></a>
-  <a href="https://github.com/dokku"><img alt="Dokku" src="https://avatars1.githubusercontent.com/u/13455795?v=4&s=400" style="border-radius:10%; height="100px"/></a>
+  <a href="https://github.com/mongodb"><img alt="MongoDB" src="https://avatars1.githubusercontent.com/u/45120?v=4&s=200" style="border-radius:10%;" height="100px"/></a>
+  <a href="https://github.com/expressjs"><img alt="Express" src="https://avatars1.githubusercontent.com/u/5658226?v=4&s=200" style="border-radius:10%;" height="100px"/></a>
+  <a href="https://github.com/heroku"><img alt="Heroku" src="https://avatars3.githubusercontent.com/u/23211?v=4&s=200" style="border-radius:10%;" height="100px"/></a>
+  <a href="https://github.com/dokku"><img alt="Dokku" src="https://avatars1.githubusercontent.com/u/13455795?v=4&s=400" style="border-radius:10%;" height="100px"/></a>
 </p>
 
 ## Git started
