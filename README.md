@@ -2,11 +2,13 @@
 
 This is a basic express project to help build API's with MongoDB quickly. It's so easy a baby could (maybe) do it. I'll take you through going from 0 to a Heroku (or Dokku) Deployed API in 5-10 mins.
 
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 <p align="center">
-  <a href="https://nodejs.org/">
-    <img alt="Node.js" src="https://nodejs.org/static/images/logo-light.svg" width="100"/>
-    <img alt="MongoDB" src="https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg" width="100"/>
-  </a>
+  <img alt="Node.js" src="https://nodejs.org/static/images/logo-light.svg" width="100"/>
+  <i class="devicon-mongodb-plain-wordmark colored"></i>
+  <i class="devicon-nodejs-plain colored"></i>
+  <i class="devicon-heroku-original-wordmark colored"></i>  
+  <img alt="MongoDB" src="https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg" width="100"/>
 </p>
 
 ## Git started
