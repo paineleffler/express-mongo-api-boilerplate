@@ -92,6 +92,26 @@ if (app.get('env') === 'production') {
 }
 ```
 
+### CORS
+
+In your `app/routes/foo_routes.js` add this to the top:
+
+``` javascript
+  var cors = require('cors')
+  var corsOptions = {
+    origin: 'https://domain.calling.api.com'
+  }
+```
+
+Then configure your routes with CORS by adding `cors(corsOptions)`:
+
+``` javascript
+  //example
+  app.get('/example', cors(corsOptions) (req, res) => {
+  //...
+  });
+```
+
 ## Git Deployin
 
 I'll put some Heroku & Dokku stuff here later.
