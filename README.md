@@ -149,7 +149,7 @@ Then `git push heroku master` or whatever branch you like deploying from
 
 Then BAMMMM it's on Heroku! Go look at:
 
-https://<crazy-unique-name-here>.herokuapp.com/
+https://crazy-unique-name-here.herokuapp.com/
 
 Note your free heroku instance will sleep after 30 minutes of no activity.
 
